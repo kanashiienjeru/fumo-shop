@@ -1,0 +1,106 @@
+* {
+    font-family: 'Inter';
+}
+
+.wrapper {
+    background-color: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.04);
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    min-height: 90vh;
+}
+
+
+
+.content { 
+    padding: 40px;
+}
+
+.toys {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.content > h1 {
+    margin-bottom: 40px;
+}
+
+.content > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.searchBlock {
+    border: 1px solid #F3F3F3;
+    display: flex;
+    border-radius: 10px;
+    padding: 0px 15px;
+    position: relative;
+}
+.searchBlock > input {
+    border: 0;
+    padding: 13px;
+    font-size: 16px;
+    width: 200px;
+}
+
+.searchBlock > img:nth-child(2) {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    cursor: pointer;
+}
+.div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.div > h1 {
+display: flex;
+gap: 21px;
+align-items: center;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+color: #000000;
+
+
+}
+
+.emptyFavorites {
+    margin-top: 15vh;
+    text-align: center;
+}
+
+.backButton {
+    margin-top: 24px;
+    color: #fff;
+    background-color: #9DD458;
+    width: 30%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 18px;
+    position: relative;
+}
+
+.backButton > img {
+    position: absolute;
+    top: 21px;
+    left: 30px;
+    transform: rotate(180deg);
+}
+
+.backButton:hover img {
+    transition: transform 0.2s ease-in-out;
+    transform: translateX(-10px) rotate(180deg);
+}
